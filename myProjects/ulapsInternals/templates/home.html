@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+      
+        <h1>Hi! How are you {{name}}?</h1>
+            <!-- <input type="text" id="user" placeholder="Input Username"><br> -->
+            <!-- <input type="password" id="Password" placeholder="Input Password"><br> -->
+            
+        <form action="add">
+            Enter Number1 <input type="text" name="num1"><br>
+            Enter number2 <input type="text" name="num2"><br>
+                          <input type="submit">
+        </form> 
+        
+        <form action="">
+            <h1>Ulaps Leave Request Form</h1>
+            Input User ID:  <input type="text" name="UserID" id="UserID" placeholder="Input Ulaps ID here"><br>
+            Input UserName: <input type="text" name="userName" id="userName" placeholder="Input full name here"><br>
+                            <input type="submit">
+
+        </form>
+
+{% endblock %}

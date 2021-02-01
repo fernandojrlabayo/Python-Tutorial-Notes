@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#score{
+    position: relative;
+    margin-top: -20px !important;
+    display: inline-block;
+    color: #0033CD;
+
+}
+div{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+canvas{
+    display: block;
+    margin:0 auto;
+    position: relative;
+   
+}
+.tetris{
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#tetris{
+    padding-top: 10px;
+}
+.text-center{
+    background-image: linear-gradient(to right,gray,purple,orange,red,blue);
+}
